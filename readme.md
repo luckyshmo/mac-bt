@@ -1,0 +1,1 @@
+[Source](https://stackoverflow.com/questions/13534167/execute-command-just-before-mac-going-to-sleep)

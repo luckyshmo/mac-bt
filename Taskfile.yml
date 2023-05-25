@@ -1,0 +1,5 @@
+version: "3"
+
+tasks:
+  build: gcc -framework IOKit -framework Cocoa beforesleep.c
+  edit-daemon: vim ~/Library/LaunchAgents/com.user.disableSony.plist
