@@ -22,7 +22,8 @@ MySleepCallBack( void * refCon, io_service_t service, natural_t messageType, voi
             break;
  
         case kIOMessageSystemWillSleep:
-            system("/Users/mikhail/Documents/kek.sh");
+            // add want you want here. and fix the path
+            system("/opt/homebrew/bin/blueutil --disconnect 94:DB:56:DE:BE:60");
             system("pmset sleepnow"); 
             break;
  
